@@ -1,0 +1,22 @@
+{
+    "express" : {
+        "port": 8080,
+        "distributionDirectory": "../dist"
+    },
+    "author": {
+        "name": "Iván",
+        "lastName": "Melgrati"
+    },
+    "mercadoLibre": {
+        "api": {
+            "searchURL": "https://api.mercadolibre.com/sites/MLA/search/",
+            "itemsURL": "https://api.mercadolibre.com/items/",
+            "currencyURL": "https://api.mercadolibre.com/currencies/",
+            "categoryURL": "https://api.mercadolibre.com/categories/",
+            "searchLimit": 4
+        }
+    },
+    "strings": {
+        "homepageTitle": "Bienvenidos a Mercado Libre"
+    }
+}

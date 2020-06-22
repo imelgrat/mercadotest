@@ -1,0 +1,94 @@
+@import '../app/variables.scss';
+.item-container {
+    border: none;
+    width: 100%;
+    margin-bottom: 48px;
+
+    .categories-container {
+        display: block;
+        max-width: 982px;
+        margin: 16px auto;
+        line-height: 1;
+        font-size: 14px;
+        color: $grey999;
+
+        .category-item:last-of-type {
+            font-weight: 600;
+        }
+        .category-separator {
+            padding: 0 9px;
+        }
+    }
+
+
+    .item-data {
+        display: flex;
+        max-width: 982px;
+        margin: 0 auto;
+        line-height: 1;
+        font-size: 14px;
+        color: $grey333;
+        background-color: $white;
+        border-radius: 4px;
+        padding: 32px;
+        .item-picture-container {
+            width: 680px !important;
+
+            .item-picture {
+                width: 680px !important;
+                min-width: 680px;
+                background-position: top left;
+                background-size: contain;
+                background-repeat: no-repeat;
+                display: inline-flex;
+                height: 680px;
+            }
+            .item-description-title {
+                font-size: 28px;
+                font-weight: 600;
+                margin-top: 32px;
+                margin-bottom: 32px;
+            }
+            .item-description {
+                font-size: 16px;
+                color: $grey999;
+            }
+        }
+        .item-details {
+            flex-grow: 1;
+            padding-left: 16px;
+            .item-stats {
+                font-weight: 600;
+                font-size: 14px;
+                margin-bottom: 16px;
+            }
+            .item-title {
+                font-size: 24px;
+                font-weight: bold;
+                line-height: 1.1;
+                margin-bottom: 32px;
+
+            }
+            .item-price {
+                font-weight: 400;
+                font-size: 46px;
+                color: $grey333;
+                margin-bottom: 32px;
+                img {
+                    margin-left: 12px;
+                }
+            }
+            .item-buy {
+                font-size: 14px;
+                background-color: $blue;
+                color: $white;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                width: 100%;
+                text-align: center;
+                border-radius: 4px;
+            }
+        }
+    }
+
+}

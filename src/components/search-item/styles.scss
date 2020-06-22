@@ -1,0 +1,50 @@
+@import '../app/variables.scss';
+.search-item {
+    margin-left: 16px;
+    margin-right: 16px;
+    padding: 16px 0;
+    width: auto;
+    display: block;
+    border-bottom: 1px solid $greyeee;
+    .item-link {
+        display: flex;
+        width: 100%;
+        .item-thumbnail {
+            img {
+                width: 180px;
+                margin: 0;
+                padding: 0;
+                line-height: 1;
+                display: block;
+                border-radius: 4px;
+            }
+        }
+        .item-detail {
+            flex-grow: 1;
+            padding-left: 16px;
+            .item-price {
+                font-weight: 400;
+                font-size: 24px;
+                color: $grey333;
+                margin-top: 16px;
+                margin-bottom: 32px;
+                img {
+                    margin-left: 12px;
+                }
+            }
+            .item-title {
+                font-weight: 400;
+                font-size: 18px;
+                color: $grey333;
+            }
+        }
+        .item-location {
+            width: 180px;
+            min-width: 180px;
+            padding-top: 24px;
+        }
+    }
+}
+.search-item:last-of-type{
+    border-bottom:none;
+}

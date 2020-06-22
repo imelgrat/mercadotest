@@ -1,0 +1,31 @@
+@import '../app/variables.scss';
+.results-container {
+    border: none;
+    width: 100%;
+    margin-bottom: 48px;
+    .categories-container {
+        display: block;
+        max-width: 982px;
+        margin: 16px auto;
+        line-height: 1;
+        font-size: 14px;
+        color: $grey999;
+
+        .category-item:last-of-type {
+            font-weight: 600;
+        }
+        .category-separator {
+            padding: 0 9px;
+        }
+    }
+    .items-container {
+        display: block;
+        max-width: 982px;
+        margin: 0 auto;
+        line-height: 1;
+        font-size: 14px;
+        color: $grey333;
+        background-color: $white;
+        border-radius: 4px;
+    }
+}
